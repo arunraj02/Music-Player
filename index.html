@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3b8812323.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <i class="fa-solid fa-chevron-down"></i>
+            <span>Now Playing</span>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+
+        <div class="song-details">
+            <p class="songName"></p>
+            <p class="artist"></p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+            </div>
+
+            <div class="song-timer">
+                <span class="current-time"></span>
+                <span class="max-duration"></span>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <div class="play-pause">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <i class="fa-solid fa-forward-step"></i>
+            <div class="mute-unmute">
+            <i class="fa-solid fa-volume-high"></i>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
